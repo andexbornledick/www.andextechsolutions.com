@@ -1,2 +1,0 @@
-# www.andextechsolutions.com
-Andexv
