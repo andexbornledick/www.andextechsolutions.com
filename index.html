@@ -755,7 +755,7 @@
 
         function checkoutCartWhatsApp() {
             if (cart.length === 0) return;
-            let text = "Hello Andex Tech Solutions (Your Andex),\nI would like to place an order from your store:\n\n";
+            let text = "Hello Andex Tech Solutions,\nI would like to place an order from your store:\n\n";
             let total = 0;
             cart.forEach(item => {
                 const sub = item.price * item.qty;
@@ -771,9 +771,10 @@
             mounts: {
                 title: "Mount Frame Size",
                 options: [
-                    { label: "A4 Photo Mount", price: 500 },
-                    { label: "A3 Large Photo Mount", price: 1000 },
-                    { label: "A2 Giant Photo Mount", price: 2200 },
+                    { label: "A4 Photo Mount", price: 1200 },
+                    { label: "A3 Large Photo Mount", price: 1800 },
+                    { label: "A2 Photo Mount", price: 2200 },
+                    { label: "A1 Photo Mount", price: 3500 },
                 ]
             },
             apparel: {
